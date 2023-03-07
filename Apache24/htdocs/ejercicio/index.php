@@ -1,10 +1,12 @@
 <?php
     if(isset($_POST['send'])){
         $selection = $_POST['selection'];
-        include $selection . ".php";
+        include $selection . '.php';
 
-        echo $selection . ".php";
-    }    
+        echo $selection . '.php';
+    }else{
+        include 'es.php';
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
