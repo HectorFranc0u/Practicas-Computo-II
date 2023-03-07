@@ -28,3 +28,9 @@
 ::1 - - [28/Feb/2023:14:27:57 -0600] "GET /ejercicio/ HTTP/1.1" 200 757
 ::1 - - [28/Feb/2023:14:28:45 -0600] "POST /ejercicio/v HTTP/1.1" 404 196
 ::1 - - [28/Feb/2023:14:29:32 -0600] "GET /ejercicio/ HTTP/1.1" 200 766
+::1 - - [07/Mar/2023:08:59:32 -0600] "GET / HTTP/1.1" 200 328
+::1 - - [07/Mar/2023:08:59:32 -0600] "GET /favicon.ico HTTP/1.1" 404 196
+::1 - - [07/Mar/2023:08:59:45 -0600] "GET /index.php HTTP/1.1" 200 328
+::1 - - [07/Mar/2023:08:59:58 -0600] "GET /ejercicio/index.php HTTP/1.1" 200 598
+::1 - - [07/Mar/2023:09:00:03 -0600] "POST /ejercicio/index.php HTTP/1.1" 200 595
+::1 - - [07/Mar/2023:09:00:05 -0600] "POST /ejercicio/index.php HTTP/1.1" 200 604
