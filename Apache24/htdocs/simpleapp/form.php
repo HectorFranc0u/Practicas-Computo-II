@@ -19,10 +19,10 @@
 ?>
 
 <form action = "crud.php" method="POST">
-    <input type="text" name="action" value="<?php echo $action; ?>">
+    <input type="hidden" name="action" value="<?php echo $action; ?>">
     <?php 
      if($action == "editar"){ ?>
-        <input type="text" name="cod" value="<?php echo $cod;?>">
+        <input type="hidden" name="cod" value="<?php echo $cod;?>">
     <?php
      }?>
     
