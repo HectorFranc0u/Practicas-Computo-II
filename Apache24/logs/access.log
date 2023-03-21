@@ -183,3 +183,9 @@
 ::1 - - [07/Mar/2023:14:39:51 -0600] "GET /simpleapp/index.php HTTP/1.1" 200 1171
 ::1 - - [07/Mar/2023:14:39:54 -0600] "POST /simpleapp/crud.php HTTP/1.1" 302 696
 ::1 - - [07/Mar/2023:14:39:54 -0600] "GET /simpleapp/index.php HTTP/1.1" 200 558
+::1 - - [07/Mar/2023:14:43:54 -0600] "GET /simpleapp/form.php HTTP/1.1" 200 376
+::1 - - [07/Mar/2023:14:43:58 -0600] "POST /simpleapp/crud.php HTTP/1.1" 302 567
+::1 - - [07/Mar/2023:14:43:58 -0600] "GET /simpleapp/index.php HTTP/1.1" 200 1169
+::1 - - [07/Mar/2023:14:44:00 -0600] "GET /simpleapp/form.php?cod=0 HTTP/1.1" 200 431
+::1 - - [07/Mar/2023:14:44:06 -0600] "POST /simpleapp/crud.php HTTP/1.1" 302 821
+::1 - - [07/Mar/2023:14:44:06 -0600] "GET /simpleapp/index.php HTTP/1.1" 200 1781
