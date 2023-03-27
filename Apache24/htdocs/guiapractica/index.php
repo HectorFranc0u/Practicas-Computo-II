@@ -19,9 +19,9 @@
 /*
     abstract class Mascota{
         public $nombre;
-        
+
         public function saludar(){
-            echo "Funcion no abstracta";    
+            echo "Funcion no abstracta";
         }
 
         abstract function getNombre();
@@ -38,7 +38,7 @@
     echo $gato->saludar();
     echo $gato->getNombre();
 
-
+*/
     abstract class Instrumento{
         public $tipo;
 
@@ -46,31 +46,31 @@
     }
 
     class guitarra extends Instrumento{
-        
+
         public function tocar(){
             return $this->tipo;
         }
     }
 
     class Saxofon extends Instrumento{
-        
+
         public function tocar(){
             return $this->tipo;
         }
     }
 
     class Violin extends Instrumento{
-        
+
         public function tocar(){
             return $this->tipo;
         }
     }
 
-    
+
     $guitarra = new Guitarra();
     $guitarra->tipo="guitarra instrumento de cuerdas";
     echo $guitarra->tocar();
-    
+
     $saxofon = new Saxofon();
     $saxofon->tipo="saxofon instrumento de viento";
     echo $saxofon->tocar();
@@ -78,6 +78,3 @@
     $violin = new Violin();
     $violin->tipo="violin instrumento de cuerdas";
     echo $violin->tocar();
-*/
-
-    
