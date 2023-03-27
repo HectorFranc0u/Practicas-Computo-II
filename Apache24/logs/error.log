@@ -215,3 +215,29 @@ AH00558: httpd.exe: Could not reliably determine the server's fully qualified do
 [Wed Mar 08 11:12:23.522225 2023] [mpm_winnt:notice] [pid 4620:tid 388] AH00418: Parent: Created child process 6236
 AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
 AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ly determine the server's fully qualified domain name, using fe80::c9d8:4c77:ee8d:5ea3. Set the 'ServerName' directive globally to suppress this message
+[Wed Mar 22 23:34:31.561972 2023] [core:warn] [pid 5096:tid 344] AH00098: pid file C:/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 22 23:34:31.585068 2023] [mpm_winnt:notice] [pid 5096:tid 344] AH00455: Apache/2.4.55 (Win64) PHP/8.2.3 configured -- resuming normal operations
+[Wed Mar 22 23:34:31.585068 2023] [mpm_winnt:notice] [pid 5096:tid 344] AH00456: Apache Lounge VS17 Server built: Feb  9 2023 09:58:39
+[Wed Mar 22 23:34:31.585068 2023] [core:notice] [pid 5096:tid 344] AH00094: Command line: 'C:\\server\\Apache24\\bin\\httpd.exe -d C:/server/Apache24'
+[Wed Mar 22 23:34:31.588620 2023] [mpm_winnt:notice] [pid 5096:tid 344] AH00418: Parent: Created child process 2336
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::c9d8:4c77:ee8d:5ea3. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::c9d8:4c77:ee8d:5ea3. Set the 'ServerName' directive globally to suppress this message
+[Wed Mar 22 23:34:31.841136 2023] [mpm_winnt:notice] [pid 2336:tid 332] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 22 23:36:51.332728 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Undefined variable $POST_ in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 9, referer: http://localhost/simpleapp/form.php
+[Wed Mar 22 23:36:51.332728 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Trying to access array offset on value of type null in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 9, referer: http://localhost/simpleapp/form.php
+[Wed Mar 22 23:36:51.332728 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Undefined variable $POST_ in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 10, referer: http://localhost/simpleapp/form.php
+[Wed Mar 22 23:36:51.332728 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Trying to access array offset on value of type null in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 10, referer: http://localhost/simpleapp/form.php
+[Wed Mar 22 23:36:54.219580 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Undefined variable $POST_ in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 9, referer: http://localhost/simpleapp/index.php
+[Wed Mar 22 23:36:54.219580 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Trying to access array offset on value of type null in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 9, referer: http://localhost/simpleapp/index.php
+[Wed Mar 22 23:36:54.219580 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Undefined variable $POST_ in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 10, referer: http://localhost/simpleapp/index.php
+[Wed Mar 22 23:36:54.219580 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Trying to access array offset on value of type null in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 10, referer: http://localhost/simpleapp/index.php
+[Wed Mar 22 23:36:54.219580 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Undefined array key "age" in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 11, referer: http://localhost/simpleapp/index.php
+[Wed Mar 22 23:36:58.760404 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Undefined variable $POST_ in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 9, referer: http://localhost/simpleapp/form.php?cod=0
+[Wed Mar 22 23:36:58.760404 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Trying to access array offset on value of type null in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 9, referer: http://localhost/simpleapp/form.php?cod=0
+[Wed Mar 22 23:36:58.760404 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Undefined variable $POST_ in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 10, referer: http://localhost/simpleapp/form.php?cod=0
+[Wed Mar 22 23:36:58.760404 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Trying to access array offset on value of type null in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 10, referer: http://localhost/simpleapp/form.php?cod=0
+[Wed Mar 22 23:36:58.760404 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Undefined variable $cod in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 23, referer: http://localhost/simpleapp/form.php?cod=0
+[Wed Mar 22 23:36:58.760404 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Undefined variable $cod in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 25, referer: http://localhost/simpleapp/form.php?cod=0
