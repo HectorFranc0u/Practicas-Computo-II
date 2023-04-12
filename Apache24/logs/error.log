@@ -241,3 +241,11 @@ AH00558: httpd.exe: Could not reliably determine the server's fully qualified do
 [Wed Mar 22 23:36:58.760404 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Trying to access array offset on value of type null in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 10, referer: http://localhost/simpleapp/form.php?cod=0
 [Wed Mar 22 23:36:58.760404 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Undefined variable $cod in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 23, referer: http://localhost/simpleapp/form.php?cod=0
 [Wed Mar 22 23:36:58.760404 2023] [php:warn] [pid 2336:tid 1312] [client ::1:49860] PHP Warning:  Undefined variable $cod in C:\\server\\Apache24\\htdocs\\simpleapp\\crud.php on line 25, referer: http://localhost/simpleapp/form.php?cod=0
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::e776:d524:b941:c427. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 04 20:54:42.803269 2023] [core:warn] [pid 4768:tid 360] AH00098: pid file C:/server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 04 20:54:42.943486 2023] [mpm_winnt:notice] [pid 4768:tid 360] AH00455: Apache/2.4.55 (Win64) PHP/8.2.3 configured -- resuming normal operations
+[Tue Apr 04 20:54:42.943486 2023] [mpm_winnt:notice] [pid 4768:tid 360] AH00456: Apache Lounge VS17 Server built: Feb  9 2023 09:58:39
+[Tue Apr 04 20:54:42.943486 2023] [core:notice] [pid 4768:tid 360] AH00094: Command line: 'C:\\server\\Apache24\\bin\\httpd.exe -d C:/server/Apache24'
+[Tue Apr 04 20:54:42.948486 2023] [mpm_winnt:notice] [pid 4768:tid 360] AH00418: Parent: Created child process 6096
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::e776:d524:b941:c427. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::e776:d524:b941:c427. Set the 'ServerName' directive globally to suppress this message
